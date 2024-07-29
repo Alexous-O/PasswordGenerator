@@ -1,4 +1,6 @@
 import random
+from termcolor import colored
+import tldextract
 
 print(colored("""
 _______    .-------.     .-./`)  .-./`)  .-./`)      ,-----.         _______    .---.  .---.      .-''-.       .-''-.   
@@ -11,11 +13,11 @@ _______    .-------.     .-./`)  .-./`)  .-./`)      ,-----.         _______    
 |  (_,_)  / |  |  \    /   |   |   |   |   |   |    '. \_/``".'    `-'`-'     /  (_{;}_)|   |    \       /    \       /  
 /_______.'  ''-'   `'-'    '---'   '---'   '---'      '-----'        `._____.'   '(_,_) '---'     `'-..-'      `'-..-'   
                                                                                                                          """, 'green'))
-print("Automatic password generator")
+print("Automatic password generator\n")
 
 characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()"
 
-passwordLength = int(input("How long would you like your password to be? "))
+passwordLength = int(input("How long would you like your password to be ? "))
 
 newPassword = []
 for x in range(passwordLength):
