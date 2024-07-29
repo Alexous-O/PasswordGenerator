@@ -4,7 +4,7 @@
 
 This project is a project to generate random passwords securely.
 
-This project is for the purpose of my studies, to learn how it works
+This is a code that was created as part of my cybersecurity training to learn and understand how it works.
 
 ## Screenshot 📸
 
