@@ -26,4 +26,5 @@ This is a code that was created as part of my cybersecurity training to learn an
 3. Choose your password length
 
 ## Author 👨‍💻
+
 The project was created by myself.
